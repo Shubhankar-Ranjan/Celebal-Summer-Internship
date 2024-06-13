@@ -1,0 +1,21 @@
+{
+  "name": "assignment_4",
+  "version": "1.0.0",
+  "description": "learning express",
+  "main": "assignment.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon assignment.js"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Shubhankar Ranjan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
