@@ -1,0 +1,30 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/6686840523d4ad630a2aa775
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "subscribedToChannel": "John Doe Channel"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/6686873195a6d707275f89b1
+
+
+###
+
+PATCH http://localhost:3000/subscribers/6686873195a6d707275f89b1
+Content-Type: application/json
+
+{
+    "name": "Donald Duck",
+    "subscribedToChannel": "Club House"
+}
